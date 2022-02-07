@@ -1,0 +1,68 @@
+/* purgecss start ignore */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* purgecss end ignore */
+
+
+/*// Global*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+    height: auto;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+body {
+    @apply bg-darkBg text-white font-display text-base h-screen w-screen;
+}
+
+img {
+    @apply pointer-events-none w-auto max-w-full
+}
+
+h1 {
+    @apply font-display text-4xl
+}
+
+h2 {
+    @apply font-serif text-3xl;
+}
+
+h3 {
+    @apply text-2xl
+}
+
+h4 {
+    @apply text-lg text-slate-300
+}
+
+label {
+    @apply text-sm uppercase text-slate-300 font-semibold pb-1
+}
+
+input {
+    @apply text-gray-600
+}
+
+.form-check-label {
+    @apply font-serif capitalize
+}
