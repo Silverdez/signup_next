@@ -17,7 +17,7 @@ function HomePage() {
               <FormSignUp setInscription={setInscription} />
             </div>
 
-            <div className={`absolute -z-1 transform -top-1/2 w-full h-full -left-1/2 translate-x-1/2 translate-y-1/2 flex justify-center items-center`}>
+            <div className={`hidden lg:block absolute -z-1 transform -top-1/2 w-full h-full -left-1/2 translate-x-1/2 translate-y-1/2 flex justify-center items-center`}>
               <div className={`absolute h-4/6 transform translate-x-10 mx-auto w-full lg:w-2/6 bg-quaternary rotate-1 bg-opacity-40 rounded-xl p-6 lg:p-16 shadow-lg`}/>
               <div className={`absolute h-4/6 transform -translate-x-10 mx-auto w-full lg:w-2/6 bg-blue-400 -rotate-1 bg-opacity-10 rounded-xl p-6 lg:p-16 shadow-lg`}/>
             </div>
@@ -31,7 +31,7 @@ function HomePage() {
               <p className={``}>You will receive soon your confirmation email </p>
             </div>
 
-            <div className={`absolute -z-1 transform -top-1/2 w-full h-full -left-1/2 translate-x-1/2 translate-y-1/2 flex justify-center items-center`}>
+            <div className={`hidden lg:block absolute -z-1 transform -top-1/2 w-full h-full -left-1/2 translate-x-1/2 translate-y-1/2 flex justify-center items-center`}>
               <div className={`absolute h-4/6 transform translate-x-10 mx-auto w-full lg:w-2/6 bg-quaternary rotate-1 bg-opacity-40 rounded-xl p-6 lg:p-16 shadow-lg`}/>
               <div className={`absolute h-4/6 transform -translate-x-10 mx-auto w-full lg:w-2/6 bg-blue-400 -rotate-1 bg-opacity-10 rounded-xl p-6 lg:p-16 shadow-lg`}/>
             </div>
